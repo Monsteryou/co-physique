@@ -27,10 +27,10 @@ def filtre_passe_bas1(signal, freq_ech, freq_coupure, gain):
 
 #Test à mofidier...
 def filtreNumTemp(data):
-    a0= 0.49235108744764494
-    a1= -0.49235108744764494
-    b1= 0.8763156230370623
-    b2= -0.19198226779470867
+    a0= 0.4923
+    a1= -0.4923
+    b1= 0.8763
+    b2= -0.1919
     filtered_data = np.zeros_like(data) #Creation donnee sortie meme type que data
    
 
